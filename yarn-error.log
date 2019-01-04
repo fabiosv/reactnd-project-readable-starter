@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  10.12.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EPROTO: protocol error, symlink '../../../mime/cli.js' -> '/vagrant/react/git/projects/2-readable/reactnd-project-readable-starter/api-server/node_modules/send/node_modules/.bin/mime'
+
+npm manifest: 
+  {
+    "name": "reddit-clone-server",
+    "version": "0.0.1",
+    "description": "A server for the Udacity Reddit Clone project for ReactND",
+    "main": "index.js",
+    "keywords": [
+      "udacity",
+      "redux",
+      "readable",
+      "react"
+    ],
+    "author": "David Harris",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.17.1",
+      "cors": "^2.8.3",
+      "dotenv": "^4.0.0",
+      "express": "^4.15.2",
+      "clone": "^2.1.1"
+    }
+   }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
